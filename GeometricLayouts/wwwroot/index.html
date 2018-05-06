@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Geometric Layouts</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+    <h1>Geometric Layouts</h1>
+
+    <h2>Lookup Coordinates</h2>
+    <form action="javascript:void(0);" onsubmit="getCoordinates()">
+        Row:
+        <br />
+        <input type="text" id="row" placeholder="Enter Row (A-F)" />
+        <br />
+        Column:
+        <br />
+        <input type="text" id="column" placeholder="Enter Column (1-12)" />
+        <br />
+        <input type="submit" value="Get Coordinates"
+               style="margin-top:10px;margin-bottom:10px;"/>
+    </form>
+
+    <h2>Lookup Cell</h2>
+    <form action="javascript:void(0);" onsubmit="getCell()">
+        Vertex 1:
+        <br />
+        <input type="text" id="v1x" placeholder="Enter X" />
+        <input type="text" id="v1y" placeholder="Enter Y" />
+        <br />
+
+        Vertex 2:
+        <br />
+        <input type="text" id="v2x" placeholder="Enter X" />
+        <input type="text" id="v2y" placeholder="Enter Y" />
+        <br />
+
+        Vertex 3:
+        <br />
+        <input type="text" id="v3x" placeholder="Enter X" />
+        <input type="text" id="v3y" placeholder="Enter Y" />
+        <br />
+        <input type="submit" value="Get Cell"
+               style="margin-top:10px;" />
+    </form>
+</body>
+</html>
