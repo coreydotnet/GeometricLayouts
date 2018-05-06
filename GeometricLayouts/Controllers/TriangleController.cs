@@ -44,7 +44,7 @@ namespace GeometricLayouts.Controllers
             catch (Exception e)
             {
                 Debug.WriteLine($"Exception in {nameof(GetCoordinates)}:{Environment.NewLine}{e}");
-                return BadRequest();
+                return NotFound();
             }
 
         }
@@ -78,7 +78,7 @@ namespace GeometricLayouts.Controllers
             catch (Exception e)
             {
                 Debug.WriteLine($"Exception in {nameof(GetCell)}:{Environment.NewLine}{e}");
-                return BadRequest();
+                return NotFound();
             }
         }
     }
