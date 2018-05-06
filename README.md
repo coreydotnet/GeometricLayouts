@@ -3,7 +3,7 @@
 Solution to the Geometric Layouts question.
 
 ## Requirements
-Requires VS2017, ASP.NET, and Core .NET.
+Requires VS2017, ASP.NET, and .NET Core.
 
 ## Usage
 Index.html provides a simple UI for calculating triangle coordinates and cells.
